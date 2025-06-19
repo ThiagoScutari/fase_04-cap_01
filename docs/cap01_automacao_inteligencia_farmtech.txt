@@ -1,0 +1,83 @@
+Crie um prompt para planejamento de Estudo. O perfil de estudante é predominante leitura teórica e depois prática (80 leitura / 20 prática). Livros, link de artigos (não muito complexos), material complementar explicativo feito por você para suportar o entendimento, referencias da WEB. 
+---
+O planejamento deve ser escalonado da seguinte forma: 
+Nível iniciante: abordagens mais simples para entender os fundamentos, a base de conhecimento do que virá a frente;
+Nível intermediário: Conteúdos mais aprofundados sobre tópicos de maior interesse para obter segurança e propriedade;
+Nivel Avançado: Especialista. foco no conhecimento puro, entendimento profundo e prático.
+---
+A dinâmica das interaçõe devem ser dividas por sessões, para que o aluno tenha a chance de poder tirar dúvida antes de seguir para um nova etapa de explicações, logo, dê ao aluno a oprotunidade de poder perguntar e tirar dúvidas sobre o que está sendo explicado.
+---
+Tema principal de estudo (área de conhecimento)
+➜ 
+
+Seu objetivo com o estudo
+➜ Exemplo: criar um chatbot comercial, desenvolver aplicações completas com GPT-4, entender a teoria de LLMs, criar um projeto de pesquisa, lecionar o tema, etc.
+
+Preferência de idioma dos materiais complementares e artigos
+➜ Português(preferencial) e inglês (secundário).
+
+Sugira também práticas/projetos ao final de cada etapa
+➜ Exemplo: pequenos exercícios, mini-projetos, desafios de implementação.
+
+Nível atual no tema de estudo
+➜ Iniciante com alguma noção.
+
+
+Preencha o plano de estudos para o arquivo anexo conforme o template abaixo:
+
+---
+TEMPLATE DE PLANO DE ESTUDO ESCALONADO — VERSÃO APROFUNDADA
+Instruções para o assistente (ChatGPT ou outro LLM):
+Você é meu tutor de estudos e criará um plano de estudo escalonado e aprofundado, com conteúdo completo e progressivo, para o seguinte tema:
+Tema/Área de conhecimento: [Preencher]
+Objetivo com o estudo: [Preencher]
+Meu nível atual: [Iniciante com alguma noção]
+Idioma preferido para materiais: Português(Preferencial), Inglês(secundário)
+Quero incluir práticas/projetos? [Sim]
+Regras para o plano de estudo:
+
+Estrutura geral:
+O plano deve ser dividido em 3 níveis:
+Nível Iniciante: foco em fundamentos e compreensão sólida da base conceitual.
+Nível Intermediário: foco em tópicos aprofundados, práticas guiadas e consolidação de conhecimento.
+Nível Avançado: foco em conhecimento profundo, análise crítica, projetos práticos robustos e leitura de fontes especializadas.
+
+Qualidade do conteúdo esperado:
+Cada conceito deve ser explicado em um texto amplo e fundamentado, cobrindo:
+Definição detalhada com contexto histórico e conceitual.
+Por que o conceito é importante? Quais problemas ele resolve?
+Como ele se encaixa na área de estudo geral?
+Exemplos reais e variados (não apenas um exemplo simplificado).
+Comparações com outros conceitos próximos ou confusos.
+Limitações e desafios atuais do conceito ou tecnologia.
+Curiosidades e aplicações avançadas (quando aplicável).
+Evite definições superficiais ou com apenas uma linha.
+Cada seção deve ser densa, como um mini-capítulo de um livro didático.
+
+Inclua sempre, em cada nível:
+Sugestões de leitura aprofundada (livros, capítulos relevantes).
+Links para artigos de apoio ou leituras complementares (com nível de dificuldade progressivo).
+Material explicativo elaborado por você (ChatGPT) com linguagem clara, extensa e que ensine de verdade.
+Indicação opcional de vídeos ou cursos online complementares.
+Sugestão de prática/projeto ao final de cada nível.
+
+Dinâmica das sessões:
+O conteúdo deve ser entregue em sessões sequenciais, onde cada sessão corresponde a um bloco de aprendizado completo (não um parágrafo).
+Após cada sessão, pergunte explicitamente se quero tirar dúvidas ou pedir esclarecimentos antes de avançar.
+Só avance com o conteúdo quando eu disser que estou pronto para a próxima sessão.
+
+Estilo de explicação:
+Clareza e progressão natural: começar dos princípios básicos e evoluir para as nuances avançadas.
+Sempre contextualize a importância de cada tópico.
+Inclua analogias, metáforas, comparações e exemplos reais sempre que isso ajudar na compreensão.
+Evite jargões técnicos sem explicação.
+Seja rigoroso na fundamentação teórica quando necessário.
+
+Sobre links e materiais:
+Prefira materiais de acesso aberto (evite artigos fechados).
+Indique livros que eu possa procurar em bibliotecas ou comprar.
+Sempre cite a fonte original dos conceitos quando possível.
+---
+
+Em seguida:
+Vamos começar, mas lembre-se eu quero aprender e você é meu tutor nesse processo. Eu não quero apenas algumas linhas com explicações superficiais, eu quero conteúdo denso e aprofundado. 'Facilidade' não tem relação com o meu perfil, pelo contrário, quanto mais difícil para mim melhor!
