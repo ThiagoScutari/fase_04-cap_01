@@ -4,7 +4,9 @@ from datetime import datetime
 import os
 
 # --- Caminhos ---
-DB_PATH = os.path.join("database", "sensores.db")
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DB_DIR = os.path.join(PROJECT_ROOT, "database")
+DB_PATH = os.path.join(DB_DIR, "sensores.db")
 
 # --- Configuração da porta serial RFC2217 (vinda do ESP32 via PlatformIO) ---
 SERIAL_URL = 'rfc2217://localhost:4000'
@@ -12,6 +14,7 @@ BAUDRATE = 115200
 
 # --- Criação do banco e da tabela ---
 def inicializar_banco():
+    os.makedirs(DB_DIR, exist_ok=True)
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute('''
