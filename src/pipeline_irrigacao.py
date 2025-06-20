@@ -73,13 +73,13 @@ def avaliar_modelo(modelo, nome):
     f1 = f1_score(y_test, y_pred)
     cm = confusion_matrix(y_test, y_pred)
 
-    print(f"\n📌 Modelo: {nome}")
+    print(f"\nModelo: {nome}")
     print(f"Acurácia:  {acc:.2f}")
     print(f"Precisão:  {prec:.2f}")
     print(f"Recall:    {rec:.2f}")
     print(f"F1-score:  {f1:.2f}")
 
-    plt.figure(figsize=(4, 3))
+    plt.figure(figsize=(8, 6))
     sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", xticklabels=["Não", "Sim"], yticklabels=["Não", "Sim"])
     plt.title(f"Matriz de Confusão - {nome}")
     plt.xlabel("Previsto")

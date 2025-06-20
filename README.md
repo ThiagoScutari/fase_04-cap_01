@@ -16,6 +16,12 @@
 - Henrique Ribeiro Siqueira – RM565044 | henrique.ribeiro1201@gmail.com  
 - Mariana Cavalcante Oliveira – RM561678 | mari.kvalcant@gmail.com  
 
+---
+## Link para o Vídeo
+
+- [Video no Youtube](https://youtu.be/socZKQ-oP9I)
+---
+
 ## 👩‍🏫 Professores:
 
 ### Tutor  
@@ -181,13 +187,11 @@ Abaixo estão as **regras heurísticas utilizadas no projeto**:
 
 ---
 
-### 🧠 Integração com o Modelo de Machine Learning
+### Integração com o Modelo de Machine Learning
 
 Estas faixas probabilísticas são **utilizadas como base para geração de rótulos (`Sim` ou `Não`)** no treinamento supervisionado, garantindo que o modelo reflita decisões contextualizadas.
 
 Além disso, a interface em Streamlit permite testar novas combinações de sensores em tempo real com diferentes modelos preditivos.
-
----
 
 ---
 
@@ -216,7 +220,7 @@ Além disso, a interface em Streamlit permite testar novas combinações de sens
 
 Este projeto demonstrou de forma prática e integrada o uso de diversas tecnologias para resolver um problema real no contexto da agricultura inteligente:
 
-- **Circuito completo no Wokwi com ESP32**: simulação funcional da leitura de sensores como umidade, pH, fósforo e potássio, além do controle de relé e visualização no display LCD.
+- **Circuito completo no Wokwi com ESP32**: simulação funcional da leitura de sensores como umidade/temperatura (DHT22), pH(simulado com LDR), fósforo e potássio (Simulados com botão), além do controle de relé e visualização no display LCD.
 - **Persistência de dados com SQLite**: registro contínuo das leituras dos sensores e dos dados obtidos da web, garantindo histórico confiável e acessível para análise futura.
 - **Aplicação de Machine Learning**: foram treinados três modelos (Decision Tree, Random Forest e Logistic Regression), todos avaliados com métricas como **acurácia**, **F1-score** e **matriz de confusão**, garantindo previsões consistentes sobre a necessidade de irrigação.
 - **Análise exploratória profunda**: gráficos de correlação, médias e distribuições que revelam padrões e comportamentos entre variáveis como temperatura, umidade e chuva em diferentes culturas.
