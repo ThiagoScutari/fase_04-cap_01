@@ -65,7 +65,7 @@ Este projeto simula, por meio de sensores virtuais conectados a um ESP32, um sis
 ├── database/              # sensores.db e webdata.db
 ├── tests/                 # Base simulada: Crop_recommendation.csv
 ├── README.md              # Este arquivo
-└── requirements.txt       # recursos e blibliotecas utilizadas
+└── requirements.txt       # recursos e bibliotecas utilizadas
 ```
 ---
 
