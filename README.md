@@ -27,7 +27,7 @@
 
 ---
 
-## 📌 Descrição do Projeto
+## Descrição do Projeto
 
 Este projeto simula, por meio de sensores virtuais conectados a um ESP32, um sistema inteligente de irrigação agrícola que:
 
@@ -43,7 +43,7 @@ Este projeto simula, por meio de sensores virtuais conectados a um ESP32, um sis
 
 ---
 
-## 🧪 Tecnologias e Bibliotecas
+## Tecnologias e Bibliotecas
 
 | Tecnologia          | Finalidade                              |
 |---------------------|------------------------------------------|
@@ -56,13 +56,13 @@ Este projeto simula, por meio de sensores virtuais conectados a um ESP32, um sis
 
 ---
 
-## 🔧 Componentes e Circuito
+## Componentes e Circuito
 
 <p align="center">
   <img src="docs/circuitos_wokwi.png" width="600">
 </p>
 
-### 📟 Display LCD em tempo real
+### Display LCD em tempo real
 
 | Estado da bomba | Exemplo de leitura |
 |-----------------|--------------------|
@@ -71,7 +71,7 @@ Este projeto simula, por meio de sensores virtuais conectados a um ESP32, um sis
 
 ---
 
-## 📉 Monitoramento Serial
+## Monitoramento Serial
 
 <p align="center">
   <img src="docs/monitor_serial.png" width="700">
@@ -79,7 +79,7 @@ Este projeto simula, por meio de sensores virtuais conectados a um ESP32, um sis
 
 ---
 
-## 🧬 Machine Learning Aplicado
+## Machine Learning Aplicado
 
 - Simulamos uma base com mais de 4.000 registros.
 - Utilizamos:
@@ -91,33 +91,33 @@ Este projeto simula, por meio de sensores virtuais conectados a um ESP32, um sis
 
 ---
 
-## 📊 Análise Gráfica dos Dados
+## Análise Gráfica dos Dados
 
-### 🔥 Heatmap de Correlação
+### Heatmap de Correlação
 
 <p align="center">
   <img src="docs/heat_map.png" width="400">
 </p>
 
-### 📊 Umidade Média por Cultura
+### Umidade Média por Cultura
 
 <p align="center">
   <img src="docs/bar_plot.png" width="600">
 </p>
 
-### 📈 Temperatura / Umidade / Chuva por Cultura
+### Temperatura / Umidade / Chuva por Cultura
 
 <p align="center">
   <img src="docs/line_plot1.png" width="800">
 </p>
 
-### 📉 Comparativo de Linhas Sobrepostas
+### Comparativo de Linhas Sobrepostas
 
 <p align="center">
   <img src="docs/line_plot2.png" width="800">
 </p>
 
-### 🌧️ Distribuição da Chuva
+### Distribuição da Chuva
 
 <p align="center">
   <img src="docs/scatter_plot.png" width="600">
@@ -125,7 +125,7 @@ Este projeto simula, por meio de sensores virtuais conectados a um ESP32, um sis
 
 ---
 
-## 🖥️ Visualização Terminal com Pandas
+##  Visualização Terminal com Pandas
 
 <p align="center">
   <img src="docs/visualizar_dados.png" width="500">
@@ -146,7 +146,7 @@ Este projeto simula, por meio de sensores virtuais conectados a um ESP32, um sis
 
 ---
 
-## 🌐 Painel Streamlit
+## Painel Streamlit
 
 - Interface amigável para prever se a irrigação será ativada com base em:
   - Temperatura (slider)
@@ -157,9 +157,9 @@ Este projeto simula, por meio de sensores virtuais conectados a um ESP32, um sis
 
 ---
 
-## ⚠️ Nota sobre o projeto
+## Nota sobre o projeto
 
-> ❗**Importante:** A Fase 3 não foi entregue anteriormente. Este projeto incorpora **toda a estrutura esperada da Fase 3 + Fase 4**, com:
+> **Importante:** A Fase 3 não foi entregue anteriormente. Este projeto incorpora **toda a estrutura esperada da Fase 3 + Fase 4**, com:
 - Sensoriamento completo;
 - Banco de dados e persistência;
 - Visualização e análise;
