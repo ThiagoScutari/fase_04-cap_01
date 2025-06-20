@@ -64,7 +64,8 @@ Este projeto simula, por meio de sensores virtuais conectados a um ESP32, um sis
 ├── src/                   # Códigos-fonte: C++, Python, Streamlit
 ├── database/              # sensores.db e webdata.db
 ├── tests/                 # Base simulada: Crop_recommendation.csv
-└── README.md              # Este arquivo
+├── README.md              # Este arquivo
+└── requirements.txt       # recursos e blibliotecas utilizadas
 ```
 ---
 
