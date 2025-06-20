@@ -146,6 +146,51 @@ Este projeto simula, por meio de sensores virtuais conectados a um ESP32, um sis
 
 ---
 
+## 💡 Regras de Acionamento da Bomba de Irrigação
+
+A ativação ou desativação da bomba de irrigação segue uma **lógica híbrida**, combinando regras definidas manualmente com classificações preditivas de Machine Learning.
+
+Abaixo estão as **regras heurísticas utilizadas no projeto**:
+
+### 🌡️ Temperatura
+| Faixa (°C)       | Probabilidade de Irrigação |
+|------------------|----------------------------|
+| 0 – 10           | ❌ 90% NÃO irrigar         |
+| 11 – 25          | ✅ 50% SIM irrigar         |
+| 26 – 29          | ✅ 60% SIM irrigar         |
+| 30 – 32          | ✅ 70% SIM irrigar         |
+| Acima de 33      | ✅ 90% SIM irrigar         |
+
+### 💧 Umidade
+| Faixa (%)        | Probabilidade de Irrigação |
+|------------------|----------------------------|
+| 0 – 30           | ✅ 100% SIM irrigar        |
+| 31 – 50          | ✅ 70% SIM irrigar         |
+| 51 – 80          | ✅ 40% SIM irrigar         |
+| 81 – 90          | ❌ 10% SIM irrigar         |
+| Acima de 90      | ❌ 99% NÃO irrigar         |
+
+### 🌧️ Chuva
+| Faixa (mm)       | Probabilidade de Irrigação |
+|------------------|----------------------------|
+| 0 – 30           | ✅ 100% SIM irrigar        |
+| 31 – 50          | ✅ 70% SIM irrigar         |
+| 51 – 100         | ✅ 40% SIM irrigar         |
+| 101 – 150        | ❌ 10% irrigar             |
+| Acima de 150     | ❌ 99% NÃO irrigar         |
+
+---
+
+### 🧠 Integração com o Modelo de Machine Learning
+
+Estas faixas probabilísticas são **utilizadas como base para geração de rótulos (`Sim` ou `Não`)** no treinamento supervisionado, garantindo que o modelo reflita decisões contextualizadas.
+
+Além disso, a interface em Streamlit permite testar novas combinações de sensores em tempo real com diferentes modelos preditivos.
+
+---
+
+---
+
 ## Painel Streamlit
 
 - Interface amigável para prever se a irrigação será ativada com base em:
