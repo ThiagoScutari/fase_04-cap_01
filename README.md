@@ -7,8 +7,6 @@
   </a>
 </p>
 
-> Projeto desenvolvido como parte da **Fase 4** do curso da **FIAP** — com o diferencial de ter **unificado entregas pendentes da Fase 3**, elevando a entrega a um novo nível de complexidade, completude e inovação. Nota máxima é o mínimo esperado!
-
 ---
 
 ## 📌 Grupo: 37
